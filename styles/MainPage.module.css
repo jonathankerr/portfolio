@@ -1,0 +1,112 @@
+.container {
+    padding: 0 20rem;
+}
+
+.main {
+  min-height: 100vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: left;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+  font-weight: 500;
+}
+
+.description{
+  line-height: 1.5;
+  font-size: 1.3rem;
+  font-weight: 300;
+}
+
+.btn {
+  display: inline-block;
+  border: none;
+  border-radius: 1rem;
+  max-width: 8rem;
+  overflow: visible;
+  padding: 1.2rem 1.2rem;
+  margin: 0;
+  text-decoration: none;
+  background: #000000;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  cursor: pointer;
+  text-align: center;
+  transition: background 250ms ease-in-out, 
+              transform 150ms ease;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.btn:hover,
+.btn:focus {
+  background: #4b4b4b;
+}
+
+.btn:focus {
+  outline: 1px solid #fff;
+  outline-offset: -4px;
+}
+
+.btn:active {
+  transform: scale(0.99);
+}
+
+.projects{
+  margin-top: 5rem;
+}
+
+/* Project 1*/
+.project1:hover .imageWrap{
+  transform: scale(0.99);
+}
+
+.project1:hover .projectName{
+  text-decoration: underline;
+}
+
+.imageWrap{
+  border-radius: 2% 2%;
+}
+
+/* Project 2*/
+.project2:hover .imageWrap2{
+  transform: scale(0.99);
+}
+
+.project2:hover .projectName2{
+  text-decoration: underline;
+}
+
+.imageWrap2{
+  border-radius: 2% 2%;
+}
+
+.foot{
+  margin-bottom: 8rem;
+}
+
+.foot p{
+  color:#797979;
+  font-size: 1.25rem;
+}
+
+.foot a{
+  color:#000000;
+  text-decoration: underline;
+  font-weight: bold;
+  text-underline-offset: 0.25rem;
+}
+
+.foot a:hover{
+  color:#353535;
+}
