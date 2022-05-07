@@ -43,10 +43,10 @@ export default function MainPage() {
       </header> */}
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Hi! I'm Jonathan Kerr
+          Hi! I&apos;m Jonathan Kerr
         </h1>
         <p className={styles.description}>
-          I'm a <b>Software Engineer</b> who has recently graduated from The University of Strathclyde with
+          I&apos;m a <b>Software Engineer</b> who has recently graduated from The University of Strathclyde with
             a Bsc Hons Degree in Computer Science. I currently work in the role of <b>Founding Engineer</b> at <b>Rayday.</b>
         </p>
         <button className={styles.btn}>Learn More</button>
