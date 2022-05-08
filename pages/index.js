@@ -69,8 +69,8 @@ export default function MainPage() {
       </main>
       <footer className={styles.foot}>
         <p>Made from scrath using  <a href="https://nextjs.org" target="_blank" rel="noreferrer">Next.js</a> and <a href="https://vercel.com/" target="_blank" rel="noreferrer">Vercel</a>. This code is <a href="https://github.com/jonathankerr/portfolio" target="_blank" rel="noreferrer">Open-Source</a>.</p> 
-        <a href="https://www.linkedin.com/in/jonathan--kerr/" target="_blank" rel="noreferrer noopener"><img src="https://s2.svgbox.net/social.svg?ic=linkedin&amp;color=000" class="social-icons"></img></a>
-        <a href="https://github.com/jonathankerr" target="_blank" rel="noreferrer noopener"><img src="https://s2.svgbox.net/social.svg?ic=github&amp;color=000" class="social-icons"></img></a>
+        <a href="https://www.linkedin.com/in/jonathan--kerr/" target="_blank" rel="noreferrer noopener"><img src="https://s2.svgbox.net/social.svg?ic=linkedin&amp;color=000"></img></a>
+        <a href="https://github.com/jonathankerr" target="_blank" rel="noreferrer noopener"><img src="https://s2.svgbox.net/social.svg?ic=github&amp;color=000"></img></a>
         <p className={styles.copy}>© Jonathan Kerr 2022</p>
       </footer>
     </div>
