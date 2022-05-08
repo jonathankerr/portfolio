@@ -1,5 +1,11 @@
 .container {
     padding: 0 20rem;
+    background-color: white;
+}
+.darkContainer{
+  padding: 0 20rem;
+  background-color: rgb(35, 35, 35);
+  color: white;
 }
 
 .main {
@@ -36,6 +42,27 @@
   text-decoration: none;
   background: #000000;
   color: #ffffff;
+  font-family: sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  cursor: pointer;
+  text-align: center;
+  transition: background 250ms ease-in-out, 
+              transform 150ms ease;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+.darkButton{
+  display: inline-block;
+  border: none;
+  border-radius: 1rem;
+  max-width: 8rem;
+  overflow: visible;
+  padding: 1.2rem 1.2rem;
+  margin: 0;
+  text-decoration: none;
+  background: #ffffff;
+  color: #000000;
   font-family: sans-serif;
   font-size: 1rem;
   font-weight: 400;
@@ -92,11 +119,18 @@
 }
 
 .foot{
-  margin-bottom: 8rem;
+  padding-bottom: 8rem;
+}
+.darkFoot{
+  padding-bottom: 8rem;
 }
 
 .foot p{
   color:#797979;
+  font-size: 1.25rem;
+}
+.darkFoot p{
+  color:#aaaaaa;
   font-size: 1.25rem;
 }
 
@@ -106,12 +140,28 @@
   font-weight: bold;
   text-underline-offset: 0.25rem;
 }
+.darkFoot a{
+  color:#ffffff;
+  text-decoration: underline;
+  font-weight: bold;
+  text-underline-offset: 0.25rem;
+}
 
 .foot a:hover{
   color:#353535;
 }
+.darkFoot a:hover{
+  color:#bababa;
+}
 
 .foot a img{
+  height: 2rem;
+  margin-right: 1rem;
+  -webkit-transition: transform .1s ease-in-out;
+  -moz-transition:transform .1s ease-in-out;
+  -ms-transition:transform .1s ease-in-out;
+}
+.darkFoot a img{
   height: 2rem;
   margin-right: 1rem;
   -webkit-transition: transform .1s ease-in-out;
@@ -130,17 +180,47 @@
   -moz-transition:transform .1s ease-in-out;
   -ms-transition:transform .1s ease-in-out;
 }
+.darkFoot a img:hover{
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-transition: transform .1s ease-in-out;
+  -moz-transition:transform .1s ease-in-out;
+  -ms-transition:transform .1s ease-in-out;
+}
 
 .foot .copy{
   font-size: 0.8rem;
 }
 
+.theme{
+  height: 3rem;
+  padding: 0.25rem;
+  border: 0.1rem solid;
+  border-radius: 10%;
+  display: flex; 
+  justify-content: center;
+  float: right;
+}
+
 @media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-  /* [class*="col-"] {
-    width: 100%;
-  } */
   .container {
     padding: 0 2rem;
-}
+  }
+  .darkContainer{
+    padding: 0 2rem;
+    background-color: rgb(35, 35, 35);
+    color: white;
+  }
+  .theme{
+    height: 3rem;
+    padding: 0.25rem;
+    border: 0.1rem solid;
+    border-radius: 10%;
+    display: flex; 
+    justify-content: center;
+  }
 }
