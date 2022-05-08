@@ -110,3 +110,27 @@
 .foot a:hover{
   color:#353535;
 }
+
+.foot a img{
+  height: 2rem;
+  margin-right: 1rem;
+  -webkit-transition: transform .1s ease-in-out;
+  -moz-transition:transform .1s ease-in-out;
+  -ms-transition:transform .1s ease-in-out;
+}
+
+.foot a img:hover{
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-transition: transform .1s ease-in-out;
+  -moz-transition:transform .1s ease-in-out;
+  -ms-transition:transform .1s ease-in-out;
+}
+
+.foot .copy{
+  font-size: 0.8rem;
+}
