@@ -204,6 +204,7 @@
   display: flex; 
   justify-content: center;
   float: right;
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 768px) {
@@ -222,5 +223,6 @@
     border-radius: 10%;
     display: flex; 
     justify-content: center;
+    cursor: pointer;
   }
 }

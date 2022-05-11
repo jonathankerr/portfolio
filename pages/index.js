@@ -77,7 +77,7 @@ export default function MainPage() {
         </h1>
         <p className={styles.description}>
           I&apos;m a <b>Software Engineer</b> who has recently graduated from The University of Strathclyde with
-            a Bsc Hons Degree in Computer Science. I currently work in the role of <b>Founding Engineer</b> at <b>Rayday.</b>
+            a Bsc Hons Degree in Computer Science. I currently work as a <b>Founding Engineer</b> at <b>Rayday.</b>
         </p>
         <button className={colorTheme === "light" ? styles.btn : styles.darkButton}>Learn More</button>
         <div className={styles.projects}>
@@ -98,7 +98,7 @@ export default function MainPage() {
         </div>
       </main>
       <footer className={colorTheme === "light" ? styles.foot : styles.darkFoot}>
-        <p>Made from scrath using  <a href="https://nextjs.org" target="_blank" rel="noreferrer">Next.js</a> and <a href="https://vercel.com/" target="_blank" rel="noreferrer">Vercel</a>. This code is <a href="https://github.com/jonathankerr/portfolio" target="_blank" rel="noreferrer">Open-Source</a>.</p> 
+        <p>Made using  <a href="https://nextjs.org" target="_blank" rel="noreferrer">Next.js</a> and <a href="https://vercel.com/" target="_blank" rel="noreferrer">Vercel</a>. This code is <a href="https://github.com/jonathankerr/portfolio" target="_blank" rel="noreferrer">Open-Source</a>.</p> 
         <a href="https://www.linkedin.com/in/jonathan--kerr/" target="_blank" rel="noreferrer noopener">
           {colorTheme === "light" ? 
             <img src="https://s2.svgbox.net/social.svg?ic=linkedin&amp;color=000"></img> : 
