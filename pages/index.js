@@ -77,7 +77,7 @@ export default function MainPage() {
         </h1>
         <p className={styles.description}>
           I&apos;m a <b>Software Engineer</b> who has recently graduated from The University of Strathclyde with
-            a Bsc Hons Degree in Computer Science. I currently work as a <b>Founding Engineer</b> at <b>Rayday.</b>
+            a Bsc Hons Degree in Computer Science. I&apos;m currently the <b>Founding Engineer</b> at <b>Rayday</b>.
         </p>
         <button className={colorTheme === "light" ? styles.btn : styles.darkButton}>Learn More</button>
         <div className={styles.projects}>
@@ -85,14 +85,14 @@ export default function MainPage() {
           <div className={styles.project1}>
             <MyImage></MyImage>
             <h3 className={styles.projectName}>CovInfo</h3>
-            <p>A Covid-19 analytics app providing users with update the date and accurate Government advice as well as location, national and 
+            <p>A Covid-19 analytics app providing users with update to date and accurate Government advice as well as local, national and 
               global analytics.
             </p>
           </div>
           <div className={styles.project2}>
             <MyImage2></MyImage2>
             <h3 className={styles.projectName2}>Where Shall I Run Today?</h3>
-            <p>An application capable of generating runnable looping routes for users which favour greenery over busy city roads.
+            <p>An application capable of generating runnable routes for users which favour greenery over busy city roads.
             </p>
           </div>
         </div>
