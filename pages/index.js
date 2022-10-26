@@ -6,7 +6,7 @@ import covInfo from './images/covinfo.png'
 import runApp from './images/runapp.png'
 
 export default function MainPage() {
-  const [colorTheme, setTheme] = useDarkMode();
+  const [colorTheme, setTheme] = useDarkMode("light");
   const MyImage = (props) => {
     return (
       <Image
@@ -76,10 +76,9 @@ export default function MainPage() {
       )}
         </h1>
         <p className={styles.description}>
-          I&apos;m a <b>Software Engineer</b> who has recently graduated from The University of Strathclyde with
-            a Bsc Hons Degree in Computer Science. I&apos;m currently the <b>Founding Engineer</b> at <b>Rayday</b>.
+          <b>Founding Engineer</b> @ <b><a href='https://rayday.co' target='_blank' rel="noreferrer" className={styles.links}>Rayday</a></b>.
         </p>
-        <button className={colorTheme === "light" ? styles.btn : styles.darkButton}>Learn More</button>
+        {/* <button className={colorTheme === "light" ? styles.btn : styles.darkButton}>Learn More</button> */}
         <div className={styles.projects}>
           <p>Selected Projects</p>
           <div className={styles.project1}>

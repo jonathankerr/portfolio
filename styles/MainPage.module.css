@@ -31,6 +31,15 @@
   font-weight: 300;
 }
 
+.links{
+  transition: 0.2s;
+}
+
+.links:hover{
+  color:rgb(105, 105, 105);
+  transition: 0.2s;
+}
+
 .btn {
   display: inline-block;
   border: none;
